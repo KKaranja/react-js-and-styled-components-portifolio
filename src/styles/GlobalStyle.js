@@ -26,12 +26,23 @@ const GlobalStyle = createGlobalStyle`
     body{
         background-color: var(--background-dark-color);
         color: var(--font-light-color);
+        overflow: hidden;
     }
 
     a{
         font-family: inherit;
         color: inherit;
         font-size: 1rem;
+    }
+    h1{
+        color: var(--white-color);
+        font-size: 3rem;
+        span{
+            font-size: 3rem;
+        }
+    }
+    span{
+        color: var(--primary-clor);
     }
 `;
 
