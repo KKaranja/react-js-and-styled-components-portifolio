@@ -1,5 +1,14 @@
+import styled from "styled-components";
+import Sidebar from "./Components/Sidebar";
+
 function App() {
-  return <div className='App'>Heloo There</div>;
+  return (
+    <Container>
+      <Sidebar />
+    </Container>
+  );
 }
 
 export default App;
+
+const Container = styled.div``;
