@@ -11,32 +11,32 @@ const Navigation = () => {
       </Avatar>
       <NavItems>
         <NavItem>
-          <NavLink to='/home' activeClassName='active-class'>
+          <NavLink to='/' activeClassName='active-class' exact>
             Home
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink to='/about' activeClassName='active-class'>
+          <NavLink to='/about' activeClassName='active-class' exact>
             About
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink to='/resume' activeClassName='active-class'>
+          <NavLink to='/resume' activeClassName='active-class' exact>
             Resume
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink to='/portfolios' activeClassName='active-class'>
+          <NavLink to='/portfolio' activeClassName='active-class' exact>
             Portfolios
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink to='/blogs' activeClassName='active-class'>
+          <NavLink to='/blog' activeClassName='active-class' exact>
             Blogs
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink to='/contact' activeClassName='active-class'>
+          <NavLink to='/contact' activeClassName='active-class' exact>
             Contact
           </NavLink>
         </NavItem>

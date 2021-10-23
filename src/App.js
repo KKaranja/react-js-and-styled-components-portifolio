@@ -1,6 +1,12 @@
+import { Route, Switch } from "react-router";
 import styled from "styled-components";
 import Sidebar from "./Components/Sidebar";
 import HomePage from "./Pages/HomePage";
+import About from "./Pages/About";
+import Blog from "./Pages/Blog";
+import Contact from "./Pages/Contact";
+import Portfolio from "./Pages/Portfolio";
+import Resume from "./Pages/Resume";
 
 function App() {
   return (
@@ -13,7 +19,26 @@ function App() {
           <Line></Line>
           <Line></Line>
         </Lines>
-        <HomePage />
+        <Switch>
+          <Route exact path='/'>
+            <HomePage />
+          </Route>
+          <Route path='/blog'>
+            <Blog />
+          </Route>
+          <Route path='/about'>
+            <About />
+          </Route>
+          <Route path='/contact'>
+            <Contact />
+          </Route>
+          <Route path='/resume'>
+            <Resume />
+          </Route>
+          <Route path='/portfolio'>
+            <Portfolio />
+          </Route>
+        </Switch>
       </MainContentStyled>
     </Container>
   );
