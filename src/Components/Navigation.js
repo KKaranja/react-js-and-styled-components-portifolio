@@ -1,13 +1,16 @@
 import React from "react";
 import styled from "styled-components";
-import avatar from "../img/my-img-2.jpg";
+import avatar from "../img/Isaac Karanja Kimura.jpg";
 import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
     <NavigationStyled>
       <Avatar>
-        <Img src={avatar} alt='' />
+        <Img
+          src={avatar}
+          alt='Isaac karanja kimura, experienced web developer and SEO Expert'
+        />
       </Avatar>
       <NavItems>
         <NavItem>
@@ -67,6 +70,7 @@ const Avatar = styled.div`
 
 const Img = styled.img`
   width: 65%;
+  height: 100%;
   border-radius: 50%;
   object-fit: cover;
   border: 8px solid var(--border-color);
@@ -80,7 +84,7 @@ const NavItems = styled.ul`
 const NavItem = styled.li`
   display: block;
   .active-class {
-    background-color: var(--primary-clor);
+    background-color: var(--primary-color);
   }
   a {
     display: block;
@@ -101,7 +105,7 @@ const NavItem = styled.li`
       left: 0;
       width: 0;
       height: 50%;
-      background-color: var(--primary-clor);
+      background-color: var(--primary-color);
       transition: All 0.4s cubic-bezier(1, -0.2, 0.25, 0.95);
       z-index: 3;
       opacity: 0.21;
