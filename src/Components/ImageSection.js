@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import Resume from "../img/my-img-2.jpg";
+import PrimaryButton from "./PrimaryButton";
 
 const ImageSection = () => {
   return (
@@ -29,14 +30,15 @@ const ImageSection = () => {
             <p>Services</p>
           </AboutInfoTitle>
           <AboutInfoContent>
-            <p>: Isaac Karanja Kimura</p>
-            <p>: 32</p>
-            <p>: Kenyan</p>
-            <p>: English, Kiswahili, Kikuyu, French</p>
-            <p>: Nairobi, Kenya</p>
-            <p>: SEO, Web Design & Web Development</p>
+            <p>: Isaac Karanja Kimura,</p>
+            <p>: 32,</p>
+            <p>: Kenyan,</p>
+            <p>: English, Kiswahili, Kikuyu, French,</p>
+            <p>: Nairobi, Kenya,</p>
+            <p>: SEO, Web Design & Web Development.</p>
           </AboutInfoContent>
         </AboutInfo>
+        <PrimaryButton title={"Download CV"} />
       </RightContent>
     </ImageSectionStyled>
   );
@@ -51,9 +53,10 @@ const LeftContent = styled.div`
   width: 100%;
   flex: 1;
   img {
-    width: 90%;
+    width: 95%;
     border-radius: 5px;
     object-fit: cover;
+    height: 100%;
   }
 `;
 
@@ -64,7 +67,6 @@ const RightContent = styled.div`
     color: var(--white-color);
     span {
       font-size: 2rem;
-      color: var(--white-color);
     }
   }
 `;
@@ -75,6 +77,7 @@ const RightContentParagraphy = styled.p`
 
 const AboutInfo = styled.div`
   display: flex;
+  padding-bottom: 1.4rem;
 `;
 
 const AboutInfoTitle = styled.div`

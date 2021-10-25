@@ -54,16 +54,18 @@ const MainContentStyled = styled.main`
 
 const Lines = styled.div`
   position: absolute;
-  min-height: 100vh;
+  min-height: 100%;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  z-index: -1;
 `;
 
 const Line = styled.div`
-  width: 0.1rem;
+  width: 1px;
   min-height: 100vh;
-  background-color: var(--border-color);
+  /* background-color: var(--border-color); */
+  background-color: #1f2334;
 `;
 
 export default App;

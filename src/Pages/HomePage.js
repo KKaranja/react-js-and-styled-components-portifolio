@@ -11,7 +11,7 @@ const HomePage = () => {
       </ParticlesJs>
       <Typograhphy>
         <Heading>
-          Hi, I'm <span>Isaac Kimura</span>
+          Hi, I'm <span>Isaac K. Kimura.</span>
         </Heading>
         <Description>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
@@ -63,7 +63,9 @@ const Typograhphy = styled.div`
 
 const Heading = styled.h1``;
 
-const Description = styled.p``;
+const Description = styled.p`
+  font-size: 1.2rem;
+`;
 
 const Icons = styled.div`
   display: flex;
@@ -91,10 +93,11 @@ const Icon = styled.a`
   border-radius: 50%;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
+  font-size: 1.2rem;
 
   &:hover {
-    border: 2px solid var(--primary-clor);
-    color: var(--primary-clor);
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
   }
   &:not(:last-child) {
     margin-right: 1rem !important;
