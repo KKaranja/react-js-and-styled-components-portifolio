@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import avatar from "../img/Isaac Karanja Kimura.jpg";
+import avatar from "../img/Isaac-Karanja-Kimura.jpg";
 import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
