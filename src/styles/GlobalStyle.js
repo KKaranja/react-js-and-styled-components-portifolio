@@ -17,6 +17,7 @@ const GlobalStyle = createGlobalStyle`
     --sidebar-bg-color: #383838;
     --sidebar-thump-color: #6b6b6b;
     --scrollbar-track-color: #191D2B;
+
 }
 
     *{
@@ -50,6 +51,15 @@ const GlobalStyle = createGlobalStyle`
     }
     span{
         color: var(--primary-color);
+    }
+    h6{
+        color: var(--white-color);
+        font-size: 1.2rem;
+        padding-bottom: .6rem;
+    }
+    /* Utilities */
+    .u-margin-bottom{
+        margin-bottom: 4rem;
     }
 `;
 
