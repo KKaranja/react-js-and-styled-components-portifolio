@@ -25,7 +25,7 @@ const ContentItemStyled = styled.div`
   color: var(--white-color);
   border-radius: 10px;
   /* transition: background-color 0.5s ease-in-out; */
-  transition: background 1000ms ease, padding 0.8s linear;
+  transition: background 1000ms ease, padding 0.1s linear;
   /* transition: 0.3s; */
   &:hover {
     color: var(--primary-color);

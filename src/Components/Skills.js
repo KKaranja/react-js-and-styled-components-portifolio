@@ -12,7 +12,7 @@ const Skills = () => {
         <div className='skills'>
           <ProgressBar title={"SEO"} width={"95%"} text={"95%"} />
           <ProgressBar title={"HTML5"} width={"90%"} text={"90%"} />
-          <ProgressBar title={"React Js"} width={"78%"} text={"78%"} />
+          <ProgressBar title={"React Js"} width={"80%"} text={"80%"} />
           <ProgressBar title={"Python"} width={"60%"} text={"60%"} />
           <ProgressBar title={"JavaScript"} width={"85%"} text={"85%"} />
           <ProgressBar title={"CSS3"} width={"90%"} text={"90%"} />
