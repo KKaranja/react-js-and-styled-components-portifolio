@@ -34,6 +34,7 @@ const GlobalStyle = createGlobalStyle`
         background-color: var(--background-dark-color);
         color: var(--font-light-color);   
     }
+    /**Custom scroll bar for the site */
     body::-webkit-scrollbar{
         width: 8px;
         background-color: #383838;
@@ -46,6 +47,8 @@ const GlobalStyle = createGlobalStyle`
         border-radius: 10px;
         background-color: #383838;
     }
+
+      /** End of Custom scroll bar for the site */
 
     a{
         font-family: inherit;
